@@ -1,5 +1,27 @@
+
+@font-face {
+  font-family: "SF-Pro-Display";
+  src: url(~assets/fonts/SF-Pro-Display-Regular.otf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF-Pro-Display";
+  src: url(~assets/fonts/SF-Pro-Display-Medium.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "SF-Pro-Display";
+  src: url(~assets/fonts/SF-Pro-Display-Heavy.otf);
+  font-weight: 800;
+}
+
+
 html {
   font-size: 16px;
+  font-family: "SF-Pro-Display", sans-serif;
 }
 
 h1 {
