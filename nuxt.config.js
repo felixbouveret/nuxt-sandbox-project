@@ -20,9 +20,20 @@ export default {
   */
   loading: { color: '#fff' },
   /*
+  ** Style Resources
+  */
+  styleResources: {
+    scss: [
+      '~/assets/style/ressources/variables.scss'
+    ]
+  },
+  /*
   ** Global CSS
   */
   css: [
+    '~/assets/style/commons/reset.css',
+    '~/assets/style/layout.scss',
+    '~/assets/style/fonts.scss',
   ],
   /*
   ** Plugins to load before mounting the App
@@ -40,6 +51,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/style-resources'
   ],
   /*
   ** Build configuration
